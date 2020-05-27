@@ -4,7 +4,7 @@
 /*-------------------------------------------------Colours*/
 
 .logocontainer {
-  background-color: #f5b939;
+  background-color: #f5ab3d;
 }
 
 .logo i {
@@ -23,11 +23,19 @@
   color: white;
 }
 
-.footercontainer {
+.about-title {
+  color: #f5ab3d;
+}
+
+.games-title {
+  color: #f5ab3d;
+}
+.navlinks-item,
+.linkstext {
   color: #fafafa;
 }
 
-.footercontainer i {
+.social-link i {
   color: #fafafa;
 }
 
@@ -61,7 +69,6 @@
 /*-------------------------------------------------Jumbotron*/
 .jumbotron {
   background-color: transparent;
-  padding: 50px;
 }
 
 .jumbotron h1 {
@@ -70,8 +77,7 @@
 
 .callout-container {
   height: 90vh;
-
-  background: url("../images/womanhappy.jpg") no-repeat center right fixed;
+  background: url("../images/gamers.jpg") no-repeat center right fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -102,9 +108,39 @@
   border: 0;
 }
 
+/*-------------------------------------------------Main Content*/
+
+.maincontentcontainer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.about-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5em;
+}
+
+.about-text {
+  max-width: 90%;
+  justify-content: right;
+  display: flex;
+}
+
+.games-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5em;
+  float: right;
+}
+
+.games-text {
+  max-width: 90%;
+  clear: right;
+  text-align: right;
+}
+
 /*-------------------------------------------------Footer*/
 
-.footercontainer {
+.footercontainer .linkstext {
   font-family: "Roboto", sans-serif;
   height: 8vh;
 }
@@ -141,7 +177,7 @@
   font-size: medium;
 }
 
-.social i {
-  padding-left: 7px;
-  font-size: 20px;
+.social-link i {
+  padding-left: 10px;
+  font-size: 25px;
 }
