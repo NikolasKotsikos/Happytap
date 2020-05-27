@@ -1,0 +1,32 @@
+/*-------------------------------------------------Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&family=Roboto:wght@300&display=swap');
+
+/*-------------------------------------------------Colours*/
+
+.logocontainer {
+    background-color: #f5b939;
+}
+
+.logo i {
+    font-size: 60px;
+    color: green;
+
+}
+.logotext {
+    font-family: "Poppins", sans-serif;
+    color: #fafafafa;
+}
+
+.footercontainer {
+    background-color: #1457adaa;
+}
+
+/*-------------------------------------------------Body*/
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/*-------------------------------------------------Header*/
+
