@@ -1,32 +1,147 @@
 /*-------------------------------------------------Fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&family=Roboto:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@900&family=Roboto:wght@300&display=swap");
 
 /*-------------------------------------------------Colours*/
 
 .logocontainer {
-    background-color: #f5b939;
+  background-color: #f5b939;
 }
 
 .logo i {
-    font-size: 60px;
-    color: green;
-
+  font-size: 50px;
+  color: green;
 }
 .logotext {
-    font-family: "Poppins", sans-serif;
-    color: #fafafafa;
+  color: #fafafafa;
 }
 
 .footercontainer {
-    background-color: #1457adaa;
+  background-color: #1457adaa;
+}
+
+.jumbotron h1 {
+  color: white;
+}
+
+.footercontainer {
+  color: #fafafa;
+}
+
+.footercontainer i {
+  color: #fafafa;
 }
 
 /*-------------------------------------------------Body*/
 
 .container-fluid {
-    margin: 0;
-    padding: 0;
-    border: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
-/*-------------------------------------------------Header*/
 
+/*-------------------------------------------------Logo*/
+.logocontainer {
+  height: 5em;
+  padding-top: 15px;
+  overflow: hidden;
+}
+
+.logotext {
+  font-family: "Poppins", sans-serif;
+}
+.logo i {
+  float: left;
+}
+
+.logo h2 {
+  float: left;
+  padding-left: 20px;
+}
+
+/*-------------------------------------------------Jumbotron*/
+.jumbotron {
+  background-color: transparent;
+  padding: 50px;
+}
+
+.jumbotron h1 {
+  font-family: "Roboto", sans-serif;
+}
+
+.callout-container {
+  height: 90vh;
+
+  background: url("../images/womanhappy.jpg") no-repeat center right fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+.opaque-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+/*-------------------------------------------------Block Dividers*/
+
+.block-divider--white {
+  background-color: white;
+  width: 500px;
+  height: 2px;
+  border: 0;
+}
+
+/*-------------------------------------------------Footer*/
+
+.footercontainer {
+  font-family: "Roboto", sans-serif;
+  height: 8vh;
+}
+
+.navlinks {
+  float: left;
+  display: inline-flex;
+  padding: 0;
+  border: 0;
+  padding-top: 20px;
+}
+.navlinks ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+.navlinks ul li a {
+  color: #fafafa;
+}
+
+.navlinks ul li {
+  display: inline-flex;
+}
+
+.social {
+  float: right;
+  display: inline-flex;
+  padding: 0;
+  border: 0;
+  padding-top: 20px;
+}
+
+.social h4 {
+  font-size: medium;
+}
+
+.social i {
+  padding-left: 7px;
+  font-size: 20px;
+}
