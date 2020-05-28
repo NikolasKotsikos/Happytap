@@ -85,7 +85,6 @@ body {
 .jumbotron-header {
   font-family: "Roboto", sans-serif;
   font-size: 1.5rem;
-    
 }
 
 .callout-container {
@@ -156,7 +155,6 @@ body {
   display: flex;
   letter-spacing: 1px;
   font-size: 0.7rem;
-  
 }
 
 .aboutpic {
@@ -164,7 +162,7 @@ body {
 }
 
 .games-container {
-    padding-right: 20px;
+  padding-right: 20px;
 }
 
 .games-title {
@@ -179,7 +177,6 @@ body {
   clear: right;
   text-align: right;
   font-size: 0.7rem;
-    
 }
 
 .gamespic {
@@ -244,14 +241,23 @@ body {
 /*-------------------------------------------------Media Queries*/
 
 @media (min-width: 768px) {
-    .logo {margin-left: 380px;}
-    .jumbotron-header {font-size: 2.5rem;}
-    .games-title,
-    .games-text,
-    .about-title,
-    .about-text {
-        font-size: 1.5rem;
-    }
+  .logocontainer {
+    height: 5em;
+    padding-top: 15px;
+  }
+  .logo {
+    margin-left: 380px;
+  }
+  .jumbotron-header {
+    font-size: 2.5rem;
+  }
+  .games-title,
+  .games-text,
+  .about-title,
+  .about-text {
+    font-size: 1.5rem;
+  }
+  .navlinks nav {
+    padding-right: 130px;
+  }
 }
-
-
