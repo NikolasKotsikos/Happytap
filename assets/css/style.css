@@ -62,19 +62,25 @@ body {
 }
 
 .logo {
-  margin-left: 15px;
+  margin-left: 45px;
+  padding-left: 30px;
 }
+
 .logotext {
   font-family: "Poppins", sans-serif;
   letter-spacing: 1px;
+  margin-top: 9px;
 }
+
 .logo i {
   float: left;
 }
 
 .logo h2 {
   float: left;
+  font-size: 1.5rem;
   padding-left: 20px;
+  padding-top: 5px;
 }
 
 /*-------------------------------------------------Jumbotron*/
@@ -84,7 +90,7 @@ body {
 
 .jumbotron-header {
   font-family: "Roboto", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .callout-container {
@@ -120,15 +126,24 @@ body {
   color: #fafafa;
 }
 
+.contactbtn:active {
+  background-color: #00ff55;
+  border-color: #00ff55;
+}
 .contactbtn:hover {
   background-color: #00ff55;
   border-color: #00ff55;
 }
+
+.contactbtn::after {
+  background-color: #0ebe49;
+  border-color: #0ebe49;
+}
 /*-------------------------------------------------Block Dividers*/
 
-.block-divider--white {
+.block-divider-white {
   background-color: white;
-  width: 500px;
+  width: 300px;
   height: 2px;
   border: 0;
 }
@@ -191,13 +206,18 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.footercontainer {
+  padding: 0;
+}
+
 .navlinks {
-  padding: 20px 0 0 0;
+  padding: 18px 0 0 0;
   border: 0;
 }
 
 .navlinks nav {
-  padding-right: 130px;
+  font-size: 0.6rem;
+  padding-right: 30px;
 }
 .navlinks ul {
   list-style: none;
@@ -210,22 +230,7 @@ body {
 }
 
 .navlinksitem {
-  padding-left: 20px;
-}
-.social {
-  display: inline-flex;
-  padding-top: 20px;
-  padding-left: 90px;
-  border: 0;
-}
-
-.social h4 {
-  font-size: medium;
-}
-
-.social-link i {
   padding-left: 15px;
-  font-size: 23px;
 }
 
 .copyright {
@@ -234,8 +239,24 @@ body {
 }
 
 .copyrighttext {
-  font-size: 10px;
+  font-size: 0.4rem;
   color: #fafafa;
+}
+.social {
+  display: inline-flex;
+  padding-top: 15px;
+
+  border: 0;
+}
+
+.linkstext {
+  visibility: hidden;
+  font-size: 2px;
+}
+
+.social-link i {
+  padding-left: 0.7rem;
+  font-size: 23px;
 }
 
 /*-------------------------------------------------Media Queries*/
@@ -246,8 +267,19 @@ body {
     padding-top: 15px;
   }
   .logo {
-    margin-left: 380px;
+    margin-left: 385px;
   }
+  .logo h2 {
+    font-size: 2rem;
+    padding-top: 0px;
+  }
+  .block-divider-white {
+    width: 500px;
+  }
+  .navlinks {
+    padding: 20px 0 0 0;
+  }
+
   .jumbotron-header {
     font-size: 2.5rem;
   }
@@ -258,6 +290,21 @@ body {
     font-size: 1.5rem;
   }
   .navlinks nav {
-    padding-right: 130px;
+    padding-right: 120px;
+    font-size: medium;
+  }
+
+  .linkstext {
+    visibility: visible;
+    font-size: medium;
+    padding-top: 5px;
+    padding-left: 55px;
+  }
+
+  .social-link i {
+    font-size: 23px;
+  }
+  .copyrighttext {
+    font-size: 0.6rem;
   }
 }
