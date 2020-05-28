@@ -30,6 +30,14 @@
 .games-title {
   color: #f5ab3d;
 }
+
+.navlinks ul li {
+  color: #fafafa;
+}
+.navlinks ul li a {
+  color: #fafafa;
+}
+
 .navlinks-item,
 .linkstext {
   color: #fafafa;
@@ -41,7 +49,7 @@
 
 /*-------------------------------------------------Body*/
 
-.container-fluid {
+body {
   margin: 0;
   padding: 0;
   border: 0;
@@ -51,9 +59,11 @@
 .logocontainer {
   height: 5em;
   padding-top: 15px;
-  overflow: hidden;
 }
 
+.logo {
+  margin-left: 15px;
+}
 .logotext {
   font-family: "Poppins", sans-serif;
   letter-spacing: 1px;
@@ -72,8 +82,10 @@
   background-color: transparent;
 }
 
-.jumbotron h1 {
+.jumbotron-header {
   font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+    
 }
 
 .callout-container {
@@ -101,17 +113,17 @@
 }
 
 .contactbtn {
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    border-radius: 25px;
-    background-color: #0ebe49;
-    border-color: #0ebe49;
-    color: #fafafa;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  border-radius: 25px;
+  background-color: #0ebe49;
+  border-color: #0ebe49;
+  color: #fafafa;
 }
 
 .contactbtn:hover {
-    background-color: #00ff55;
-    border-color: #00ff55;
+  background-color: #00ff55;
+  border-color: #00ff55;
 }
 /*-------------------------------------------------Block Dividers*/
 
@@ -125,15 +137,15 @@
 /*-------------------------------------------------Main Content*/
 
 .maincontentcontainer {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding: 60px 0;
 }
 .about-container {
-    padding-bottom: 50px;
+  padding-bottom: 50px;
+  padding-left: 20px;
 }
 .about-title {
   font-family: "Poppins", sans-serif;
-  font-size: 1.5em;
+  font-size: 0.9rem;
   padding-bottom: 15px;
   letter-spacing: 1px;
 }
@@ -143,57 +155,71 @@
   justify-content: right;
   display: flex;
   letter-spacing: 1px;
+  font-size: 0.7rem;
+  
+}
+
+.aboutpic {
+  float: right;
+}
+
+.games-container {
+    padding-right: 20px;
 }
 
 .games-title {
   font-family: "Poppins", sans-serif;
-  font-size: 1.5em;
   float: right;
   letter-spacing: 1px;
+  font-size: 0.9rem;
 }
 
 .games-text {
   max-width: 100%;
   clear: right;
   text-align: right;
+  font-size: 0.7rem;
+    
+}
+
+.gamespic {
+  float: left;
 }
 
 /*-------------------------------------------------Footer*/
 
-.footercontainer {
-  height: 8vh;
-}
-.footercontainer .linkstext {
+.footercontainer,
+.linkstext,
+.copyrighttext {
   font-family: "Roboto", sans-serif;
 }
 
 .navlinks {
-  float: left;
-  display: inline-flex;
-  padding: 0;
+  padding: 20px 0 0 0;
   border: 0;
-  padding-top: 20px;
+}
+
+.navlinks nav {
+  padding-right: 130px;
 }
 .navlinks ul {
   list-style: none;
   text-decoration: none;
-}
-
-.navlinks ul li a {
-  color: #fafafa;
+  float: right;
 }
 
 .navlinks ul li {
   display: inline-flex;
 }
 
+.navlinksitem {
+  padding-left: 20px;
+}
 .social {
-  width: auto;
-  float: right;
   display: inline-flex;
-  padding: 0;
-  border: 0;
   padding-top: 20px;
+  padding-left: 90px;
+  border: 0;
 }
 
 .social h4 {
@@ -204,3 +230,28 @@
   padding-left: 15px;
   font-size: 23px;
 }
+
+.copyright {
+  padding-top: 40px;
+  text-align: center;
+}
+
+.copyrighttext {
+  font-size: 10px;
+  color: #fafafa;
+}
+
+/*-------------------------------------------------Media Queries*/
+
+@media (min-width: 768px) {
+    .logo {margin-left: 380px;}
+    .jumbotron-header {font-size: 2.5rem;}
+    .games-title,
+    .games-text,
+    .about-title,
+    .about-text {
+        font-size: 1.5rem;
+    }
+}
+
+

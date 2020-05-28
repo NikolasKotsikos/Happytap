@@ -22,14 +22,13 @@
 
   <body>
     <!--Logo-->
-    <header class="logocontainer">
-      <div class="row no-gutters">
-    
-        <div class="col-8 col-sm-12 offset-4 logo">
-              <a href="#">
-              <i class="far fa-smile-beam"></i>
-              <h2 class="logotext">Happytap Games</h2>
-            </a>
+    <header>
+      <div class="row no-gutters logocontainer">
+        <div class="col text-align-center logo">
+          <a href="#">
+            <i class="far fa-smile-beam"></i>
+            <h2 class="logotext">Happytap Games</h2>
+          </a>
         </div>
       </div>
     </header>
@@ -57,31 +56,38 @@
     <!--Main Content-->
     <section class="container maincontentcontainer">
       <div class="row justify-content-center about-container no-gutters">
-        <div class="col-8 col-sm-4 col-md-4 offset-md-4">
+        <div class="col-8 col-xs-10">
           <h3 class="about-title">Who is Happytap Games?</h3>
           <p class="about-text">
             Happytap Games is a London based development studio focusing on
             making fun and engaging hypercasual mobile games! We build the games
-            that we want to play, for everyone to enjoy home or on the go!
+            that we want to play, for everyone to enjoy, at home or on the go!
           </p>
         </div>
-        <div class="col-4 col-sm-2 col-md-2">
+        <div class="col-4 col-xs-2">
           <img
+            class="col aboutpic"
             src="assets/images/womanhappy.jpg"
             alt="Young woman engaged with hypercasual game"
           />
         </div>
       </div>
       <div class="row justify-content-center games-container no-gutters">
-        <div class="col-4 col-sm-2 col-md-2">
-          <img src="assets/images/shortemallthumb.jpg" alt="Sort'Em All" />
+        <div class="col-4 col-xs-2">
+          <img
+            class="col gamespic"
+            src="assets/images/shortemallthumb.jpg"
+            alt="Sort'Em All"
+          />
         </div>
-        <div class="col-8 col-sm-4 col-md-4 offset-md-4">
+        <div class="col-8 col-xs-10">
           <h3 class="games-title">Our Games</h3>
           <p class="games-text">
             Sort'Em All is a fun puzzle game for all ages! Match the items in
             rows, columns or across and get your point score up! Incrementally
             increasing difficulty keeps you gripped for multiple playthroughs!
+            Unlock more levels as you play and earn unique and exciting
+            achievements!
           </p>
         </div>
       </div>
@@ -89,19 +95,24 @@
     <!--/.maincontent-->
 
     <!--Footer-->
-    <footer class="container-fluid no-gutters footercontainer">
-      <div class="row">
-        <div class="col col-md-2"></div>
-        <div class="col col-md-8">
-          <div class="col col-md-4 navlinks">
+    <footer>
+      <div class="container-fluid footercontainer">
+        <div class="row">
+          <div class="col-4 navlinks">
             <nav>
               <ul>
                 <li class="navlinks-item"><a href="#">Home</a></li>
+                <li>|</li>
                 <li class="navlinks-item"><a href="#">Contact</a></li>
               </ul>
             </nav>
           </div>
-          <div class="col col-md-4 social">
+
+          <div class="col-4 copyright justify-content-between">
+            <h6 class="copyrighttext">Copyright &copy; 2020 Happytap Games</h6>
+          </div>
+
+          <div class="col-4 social">
             <h4 class="linkstext">Follow us:</h4>
 
             <a class="social-link" href="#"><i class="fab fa-facebook"></i></a>
@@ -109,7 +120,6 @@
             <a class="social-link" href="#"><i class="fab fa-twitter"></i></a>
           </div>
         </div>
-        <div class="col col-md-2"></div>
       </div>
     </footer>
     <!--/.footer-->
