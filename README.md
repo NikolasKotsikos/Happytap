@@ -1,6 +1,6 @@
 ## Welcome to Happytap!
 
-This is the website for UK based hyper casual mobile game design studio Happytap Games. It features links and descriptions for our games and ways to get in touch with us. 
+This is the website for London based hyper casual mobile game development studio Happytap Games. It features links and descriptions for our games and ways to get in touch with us. 
 
 ## Technologies and compatibility
 
